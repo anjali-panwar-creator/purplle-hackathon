@@ -1,0 +1,48 @@
+{
+  "store_id": "STORE_BLR_002",
+  "store_name": "Brigade_Bangalore",
+  "open_hours": {
+    "start": "10:00",
+    "end": "22:00"
+  },
+  "cameras": [
+    {
+      "camera_id": "CAM_ENTRY_01",
+      "type": "entry_exit"
+    },
+    {
+      "camera_id": "CAM_FLOOR_01",
+      "type": "main_floor"
+    },
+    {
+      "camera_id": "CAM_BILLING_01",
+      "type": "billing_area"
+    }
+  ],
+  "zones": [
+    {
+      "zone_id": "SKINCARE",
+      "sku_zone": "MOISTURISER",
+      "camera_coverage": ["CAM_FLOOR_01"],
+      "polygon": [[100, 100], [400, 100], [400, 400], [100, 400]]
+    },
+    {
+      "zone_id": "MAKEUP",
+      "sku_zone": "LIPSTICK",
+      "camera_coverage": ["CAM_FLOOR_01"],
+      "polygon": [[500, 100], [800, 100], [800, 400], [500, 400]]
+    },
+    {
+      "zone_id": "BILLING_ZONE",
+      "sku_zone": "BILLING",
+      "camera_coverage": ["CAM_BILLING_01"],
+      "polygon": [[100, 500], [800, 500], [800, 700], [100, 700]]
+    },
+    {
+      "zone_id": "ENTRY_ZONE",
+      "sku_zone": "ENTRY",
+      "camera_coverage": ["CAM_ENTRY_01"],
+      "polygon": [[0, 800], [900, 800], [900, 1000], [0, 1000]]
+    }
+  ]
+}

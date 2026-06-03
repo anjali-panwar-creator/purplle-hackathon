@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.pt
+
+# Node / React
+node_modules/
+dist/
+.DS_Store
+
+# Golang / Backend
+app/store_intelligence.db
+app/test-api
+app/test-api.exe
+
+# Video & Large Data Files
+DATA/*.zip
+DATA/*.mp4
+DATA/*/
+DATA/*.pdf
+DATA/*.xlsx
+# Keep image.png, pos_transactions.csv, and store_layout.json!
+
+# Scratch / Temp Files
+diff.py
+diff_output.txt
+store_layout.csv
