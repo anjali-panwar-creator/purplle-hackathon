@@ -10,7 +10,7 @@ You can run the entire Intelligence API stack in exactly 2 commands using Docker
 
 ```bash
 # 1. Clone the repository
-git clone <your-repo-link>
+git clone https://github.com/anjali-panwar-creator/purplle-hackathon
 cd purplle-hackathon
 
 # 2. Start the API
